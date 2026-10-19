@@ -1,0 +1,29 @@
+@import './base.css';
+
+/* css geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Genos', sans-serif;
+  background: white;
+  color: black;
+}
+
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
