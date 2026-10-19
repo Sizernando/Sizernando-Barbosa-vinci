@@ -5,7 +5,7 @@ import Sobre from '../views/Sobre.vue'
 
 // paginas do site
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', component: Inicio },
     { path: '/carro', component: Carro },
