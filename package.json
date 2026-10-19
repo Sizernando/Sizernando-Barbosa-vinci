@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -t",
     "build": "vite build",
     "postbuild": "node -e \"require('fs').copyFileSync('dist/index.html', 'dist/404.html')\"",
-    "deploy": "npm run build && gh-pages -d dist -t true",
     "preview": "vite preview",
     "lint": "run-s \"lint:*\"",
     "lint:oxlint": "oxlint . --fix",

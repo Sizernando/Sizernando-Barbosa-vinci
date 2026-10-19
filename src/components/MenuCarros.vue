@@ -19,7 +19,7 @@
       </div>
       <div class="carro">
         <img src="/images/mega-v3.png" class="foto" />
-        <h4 class="modelo">MODELO V3</h4>
+        <h4 class="modelo">MODELO TDE2</h4>
         <div class="opcoes">
           <RouterLink to="/carro">Ver mais</RouterLink>
           <a href="#">Comprar</a>

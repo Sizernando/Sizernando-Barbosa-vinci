@@ -3,7 +3,7 @@
   <div class="pagina">
     <!-- banner grande -->
     <div class="banner-topo">
-      <h1 class="titulo-grande">VINCI MODEL V3</h1>
+      <h1 class="titulo-grande">VINCI TDE2</h1>
       <p class="texto-banner">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
         been the industry's standard dummy text ever.
